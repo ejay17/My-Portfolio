@@ -1,0 +1,62 @@
+.myprofile-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 12vh 12vw 0vh 12vw;
+   column-gap: 10%;
+}
+
+.myprofile-container .profile {
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
+}
+
+.myprofile-container .profile h1 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 40px;
+   color: #494949;
+}
+
+.myprofile-container .profile .text-wrapper p {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 350;
+   font-size: 18px;
+   color: #494949;
+}
+
+.myprofile-container .profile .calltoaction {
+   display: flex;
+   gap: 12px;
+}
+
+.myprofile-container .profile .calltoaction a {
+   text-decoration: none;
+   font-family: 'Golos UI';
+   transition: all 0.2s ease;
+}
+
+.myprofile-container .profile .calltoaction .hire  {
+   color: #494949;
+   padding: 10px 20px;
+   border-radius: 15px;
+   background-color: #ffffff;
+   border: 3px solid #a3a3a3;
+}
+
+.myprofile-container .profile .calltoaction .viewcv {
+   color: #636363;
+   padding: 10px 20px;
+   border-radius: 15px;
+   border: 3px solid #ffffff;
+}
+
+.myprofile-container .profile-picture img {
+   width: 340px;
+}
+
+.myprofile-container .profile .calltoaction a:hover {
+   border: 3px solid #545454;
+   padding: 10px 20px;
+   background-color: #ffffff;
+}

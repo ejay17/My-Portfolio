@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Poppins', 'Segoe UI', sans-serif;
+   background-image: linear-gradient(to right, #f4fcff, #e8ff78, #E4F61B);
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: #333;
+   line-height: 1.6;
+}
+
+header {
+   display: flex;
+   margin: 4vh 10vw;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header .logo-name {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+header .logo-name img {
+   width: 50px;
+}
+
+header .logo-name h1 {
+   font-size: 32px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   color: #222;
+}
+
+header nav ul {
+   display: flex;
+   gap: 30px;
+}
+
+header nav ul li {
+   list-style-type: none;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: #494949;
+   font-family: 'Poppins';
+   font-weight: 700;
+   letter-spacing: 0.5px;
+   transition: all .3s ease-in;
+}
+
+header nav ul li a:hover {
+   color: #7a7a00;
+   border-bottom: 1px solid #333;
+}
