@@ -53,6 +53,7 @@
 
 .myprofile-container .profile-picture img {
    width: 350px;
+   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.2));
 }
 
 .myprofile-container .profile .calltoaction a:hover {

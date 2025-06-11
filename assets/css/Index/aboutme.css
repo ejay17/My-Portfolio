@@ -1,47 +1,19 @@
+.about-container {
+   background-color: rgb(255, 255, 131);
+   margin-top: -8px;
+}
+
 #aboutme {
    width: 100;
    display: flex;
    flex-direction: column;
    align-items: center;
    gap: 80px;
-   background-color: rgb(255, 255, 131);
-   margin-top: -8px;
+   padding: 12vh 12vw 12vh 12vw;
 }
 
 #aboutme h1 {
    font-family: 'Poppins', sans-serif;
    font-size: 40px;
    color: #494949;
-}
-
-#aboutme .education-wrapper {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 15px;
-   border-radius: 15px;
-   padding: 15px;
-   box-shadow: 0px 0px 20px 1px #afafaf87;
-}
-
-#aboutme .education-wrapper h2 {
-   font-family: 'Poppins';
-}
-
-#aboutme .education-wrapper table {
-   text-align: center;
-}
-
-#aboutme .education-wrapper table th {
-   font-size: 18px;
-   padding: 10px 20px;
-   font-weight: 500;
-   color: #494949;
-   font-family: 'Poppins';
-}
-
-#aboutme .education-wrapper table td {
-   padding: 5px 20px;
-   font-family: 'Golos UI';
-   font-size: 14px;
 }
