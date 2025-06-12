@@ -1,7 +1,6 @@
 .about-container {
-   /* background-color: rgba(255, 255, 255, 0.8); */
    background-color: #f0fbe2;
-   /* backdrop-filter: blur(20px); */
+   backdrop-filter: blur(20px);
    margin-top: -8px;
 }
 
@@ -19,3 +18,4 @@
    font-size: 36px;
    color: #494949;
 }
+
