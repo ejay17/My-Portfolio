@@ -1,5 +1,7 @@
 .about-container {
-   background-color: rgb(255, 255, 131);
+   /* background-color: rgba(255, 255, 255, 0.8); */
+   background-color: #f0fbe2;
+   /* backdrop-filter: blur(20px); */
    margin-top: -8px;
 }
 
@@ -13,7 +15,7 @@
 }
 
 #aboutme h1 {
-   font-family: 'Poppins', sans-serif;
-   font-size: 40px;
+   font-family: 'Poppins';
+   font-size: 36px;
    color: #494949;
 }
