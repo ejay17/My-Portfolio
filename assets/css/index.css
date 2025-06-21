@@ -2,6 +2,7 @@
 @import url(section-profile.css);
 @import url(section-aboutme.css);
 @import url(section-project.css);
+@import url(section-skills.css);
 
 * {
    margin: 0;

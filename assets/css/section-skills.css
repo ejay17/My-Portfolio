@@ -1,0 +1,112 @@
+#section-skills {
+      width: 70;
+      height: 100vh;
+      background-color: #f0fbe2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 40px;
+}
+
+#section-skills h2 {
+      font-family: 'Poppins';
+      font-size: 32px;
+      color: #494949;
+}
+
+#section-skills .overall-container {
+      display: flex;
+      flex-direction: row;
+      column-gap: 90px;
+}
+
+#section-skills .frontend-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 14px;
+      font-family: 'Poppins';
+      color: #494949;
+}
+
+#section-skills .frontend-container h3 {
+      font-family: 'Poppins';
+      font-size: 22px;
+      color: #494949;
+}
+
+#section-skills .frontend-container ul li {
+      list-style-type: none;
+      letter-spacing: 2px;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 12px;
+}
+
+#section-skills .frontend-container ul li img {
+      width: 24px;
+}
+
+#section-skills .backend-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 14px;
+      font-family: 'Poppins';
+      color: #494949;
+}
+
+#section-skills .backend-container h3 {
+      font-family: 'Poppins';
+      font-size: 22px;
+      color: #494949;
+}
+
+#section-skills .backend-container ul li {
+      list-style-type: none;
+      letter-spacing: 2px;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 12px;
+}
+
+#section-skills .backend-container ul li img {
+      width: 24px;
+}
+
+#section-skills .editing-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 14px;
+      font-family: 'Poppins';
+      color: #494949;
+}
+
+#section-skills .editing-container h3 {
+      font-family: 'Poppins';
+      font-size: 22px;
+      color: #494949;
+}
+
+#section-skills .editing-container ul li {
+      list-style-type: none;
+      letter-spacing: 2px;
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 12px;
+}
+
+#section-skills .editing-container ul li img {
+      width: 24px;
+}
+
+#section-skills .overall-container ul {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
