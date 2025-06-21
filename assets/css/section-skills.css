@@ -43,6 +43,7 @@
       display: flex;
       flex-flow: row nowrap;
       gap: 12px;
+      transition: all .2s ease;
 }
 
 #section-skills .frontend-container ul li img {
@@ -71,6 +72,7 @@
       display: flex;
       flex-flow: row nowrap;
       gap: 12px;
+      transition: all .2s ease;
 }
 
 #section-skills .backend-container ul li img {
@@ -99,6 +101,7 @@
       display: flex;
       flex-flow: row nowrap;
       gap: 12px;
+      transition: all .2s ease;
 }
 
 #section-skills .editing-container ul li img {
@@ -109,4 +112,20 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+}
+
+#section-skills .backend-container ul li:hover {
+      transform: scale(1.05);
+}
+
+#section-skills .frontend-container ul li:hover {
+      transform: scale(1.05);
+}
+
+#section-skills .editing-container ul li:hover {
+      transform: scale(1.05);
+}
+
+li, h3, h2 {
+      cursor: default;
 }
