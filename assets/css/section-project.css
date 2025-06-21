@@ -57,10 +57,9 @@
 }
 
 #project-container .item-container .items p {
-      margin: 0px 10px 12px 10px;
+      margin: 0px 12px 12px 12px;
       font-size: 10px;
       font-family: 'Poppins';
       text-align: justify;
       align-self: flex-start;
-
 }
