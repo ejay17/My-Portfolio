@@ -19,14 +19,15 @@
       gap: 40px;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       flex-flow: row wrap;
       align-content: center;
 }
 
 #project-container .item-container .items {
-      width: 230px;
+      width: 200px;
       height: auto;
+      padding: 12px;
       border-radius: 0px 0px 10px 10px;
       border-top: 3px solid rgb(176, 176, 176);
       transition: all 0.2s ease;
@@ -46,18 +47,10 @@
 }
 
 #project-container .item-container .items h4 {
-      margin-top: 10px;
       font-family: 'Golos UI';
 }
 
-#project-container .item-container .items h5 {
-      font-family: 'Poppins';
-      align-self: flex-start;
-      margin-left: 10px;
-}
-
 #project-container .item-container .items p {
-      margin: 0px 12px 12px 12px;
       font-size: 10px;
       font-family: 'Poppins';
       text-align: justify;
