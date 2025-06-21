@@ -8,8 +8,8 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   gap: 40px;
-   padding: 15% 12vw 15% 12vw;
+   gap: 20px;
+   padding: 10% 12vw 10% 12vw;
 }
 
 #aboutme h1 {
@@ -25,3 +25,7 @@
    font-weight: 350;
    text-indent: 7%;
 }
+
+.about-container img {
+   width: 150px;
+} 
