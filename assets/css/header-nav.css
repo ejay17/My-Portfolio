@@ -37,8 +37,11 @@ header nav ul li a {
    font-family: 'Poppins';
    font-weight: 700;
    letter-spacing: 1px;
+   transition: all 1s ease;
 }
 
 header nav ul li a:hover {
-   border-bottom: 2px solid #333;
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 5px;
 }
