@@ -1,0 +1,64 @@
+#contact-container {
+      height: 40vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      background-color: #494949;
+      padding: 5vh 20vw;
+      gap: 40px;
+}
+
+#contact-container h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 32px;
+      color: #ebe7e7;
+}
+
+#contact-container .conmed-container {
+      display: flex;
+      justify-content: center;
+      gap: 90px;
+      font-family: 'Golos UI';
+}
+
+#contact-container .conmed-container .contacts {
+      color: #ebe7e7;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+}
+
+#contact-container .conmed-container .contacts h2 {
+      margin-bottom: 16px;
+}
+
+#contact-container .conmed-container .contacts span {
+      font-family: 'Golos UI';
+      margin-left: 12px;
+      font-size: 17px;
+}
+
+#contact-container .conmed-container .media {
+      color: #ebe7e7;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+}
+
+#contact-container .conmed-container .media a {
+      vertical-align: middle;
+      display: inline-flex; 
+      align-items: center; 
+      gap: 16px;
+      text-decoration: none;
+      color: #ebe7e7;
+      margin-left: 12px;
+}
+
+#contact-container .conmed-container .media h2 {
+      margin-bottom: 8px;
+}
+
+#contact-container .conmed-container .media a>img {
+      width: 18px;
+}

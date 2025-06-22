@@ -26,7 +26,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      gap: 14px;
+      gap: 30px;
       font-family: 'Poppins';
       color: #494949;
 }
@@ -34,6 +34,7 @@
 #section-skills .frontend-container h3 {
       font-family: 'Poppins';
       font-size: 22px;
+      font-weight: 500;
       color: #494949;
 }
 
@@ -55,7 +56,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      gap: 14px;
+      gap: 30px;
       font-family: 'Poppins';
       color: #494949;
 }
@@ -63,6 +64,7 @@
 #section-skills .backend-container h3 {
       font-family: 'Poppins';
       font-size: 22px;
+      font-weight: 500;
       color: #494949;
 }
 
@@ -84,7 +86,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
-      gap: 14px;
+      gap: 30px;
       font-family: 'Poppins';
       color: #494949;
 }
@@ -92,6 +94,7 @@
 #section-skills .editing-container h3 {
       font-family: 'Poppins';
       font-size: 22px;
+      font-weight: 500;
       color: #494949;
 }
 
